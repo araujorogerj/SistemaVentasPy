@@ -3,7 +3,7 @@ import tkinter as tk
 
 window = tk.Tk()
 window.geometry("800x600")
-window["bg"] = "#92E27A"
+window.config(bg = "#92e27a")
 
 etiqueta = tk.Label(window, text = "Hola Mundo")
 
