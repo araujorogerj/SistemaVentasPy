@@ -1,11 +1,14 @@
-from tkinter import *
-import tkinter as tk
+from tkinter import*
 
-window = tk.Tk()
-window.geometry("800x600")
-window.config(bg = "#92e27a")
+class Window(Tk):
+    def __init__(self):
+        super().__init__()
 
-etiqueta = tk.Label(window, text = "Hola Mundo")
+def main():
+    app = Window()
+    app.title('Sistema de Ventas')
+    app.mainloop()
 
 
-window.mainloop()
+if __name__=='__main__':
+    main()
