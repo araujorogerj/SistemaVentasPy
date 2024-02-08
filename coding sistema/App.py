@@ -1,2 +1,1 @@
-import from tkinter *;
-import from tkinter tkinter ;
+import tkinter as tk
